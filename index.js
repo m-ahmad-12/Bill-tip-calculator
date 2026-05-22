@@ -65,3 +65,4 @@ tipValueEl.textContent = "0.00";
 totalValueEl.textContent = "0.00";
 perPersonValueEl.textContent = "0.00";
 });
+calculate();
