@@ -61,7 +61,7 @@ noPeople.value = "";
 
 tipButtons.forEach(b => b.classList.remove("active"));
 
-tipValueEl.textContent = "--";
-totalValueEl.textContent = "--";
-perPersonValueEl.textContent = "--";
+tipValueEl.textContent = "0.00";
+totalValueEl.textContent = "0.00";
+perPersonValueEl.textContent = "0.00";
 });
