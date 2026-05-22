@@ -23,6 +23,7 @@ let perPerson = total / people;
 tipValueEl.textContent = tipAmount.toFixed(2);
 totalValueEl.textContent = total.toFixed(2);
 perPersonValueEl.textContent = perPerson.toFixed(2);
+  console.log(bill, tip, people);
 }
 
 billAmount.addEventListener("input", function () {
