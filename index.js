@@ -13,7 +13,8 @@ let tip = 0;
 let people = 1;
 
 function calculate() {
-if (!people || people <= 0) return;
+if (!bill || bill < 0) bill = 0;
+if (!people || people <= 0) people = 1;
 
 let tipAmount = bill * (tip / 100);
 let total = bill + tipAmount;
