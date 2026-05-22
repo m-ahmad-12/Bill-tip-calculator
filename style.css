@@ -1,0 +1,40 @@
+body {
+font-family: Arial;
+background: #f5f5f5;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+.main {
+background: white;
+padding: 20px;
+border-radius: 10px;
+width: 300px;
+}
+
+input, button {
+width: 100%;
+margin-top: 5px;
+padding: 8px;
+}
+
+.tip button {
+width: 30%;
+margin-right: 5px;
+}
+
+.active {
+background: black;
+color: white;
+}
+
+.output p {
+margin: 8px 0;
+}
+
+small {
+color: red;
+font-size: 12px;
+}
